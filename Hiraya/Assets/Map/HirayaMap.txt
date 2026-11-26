@@ -1,0 +1,88 @@
+; HIRAYA MAP LAYOUT  (80 x 80 cells, row 0 = north / top of the map)
+; Edit this file, then run  Hiraya > Map > Rebuild map from layout  in the Unity menu bar to rebuild the world.
+; (Rebuilding replaces the HirayaMap prefab, so hand edits made inside it are lost.)
+;   #  fence            .  grass (empty)      =  walk path
+;   T  tree             Y  pine tree          R  rock on the grass
+;   r  rock on the walk path (the path continues underneath it)
+;   K  park (box)         S  school (box)       H  house (box)
+;   B  plot left empty on purpose (the blue areas of the drawing)
+################################################################################
+#..............................................................................#
+#.T.T.T.T.T.T.T.T.T.T.T.T.T............................................T.T.T.T.#
+#....................................T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.........#
+#......Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.....................................................#
+#.T.T.........................R......KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS.T.T.T.T.#
+#.....T.T.T.T.T.T.T.T.T.T.T..........KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS.........#
+#....................................KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS.........#
+#.T.T................................KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS.T.T.T.T.#
+#.....T.T.T.T.T.T.T.T.T.T..........R.KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS.........#
+#....................................KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS.........#
+#.T.T....BBBBBBBBBBBBBBB..T=========.KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS.T.T.T.TY#
+#......T.BBBBBBBBBBBBBBB...=========.KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS.........#
+#........BBBBBBBBBBBBBBB...==r======.KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS........Y#
+#.T.T....BBBBBBBBBBBBBBB.T.=========.KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS.T.T.T.T.#
+#......T.BBBBBBBBBBBBBBB...=========.KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS........Y#
+#........BBBBBBBBBBBBBBB...=========.KKKKKKKKKKK.SSSSSSSSSSSSSSSSSSSSS.........#
+#.T.T....BBBBBBBBBBBBBBB.T.=========.............SSSSSSSSSSSSSSSSSSSSS.T.T.T.TY#
+#......T.BBBBBBBBBBBBBBB...=====r===...........................................#
+#........BBBBBBBBBBBBBBB...=========.Y.Y.Y.Y.Y.Y.Y.Y.Y.===========.Y.Y.Y......Y#
+#.T.T....BBBBBBBBBBBBBBB.T.=============================================.T.T.T.#
+#......T.BBBBBBBBBBBBBBB...=========================r===================......Y#
+#..........................===========r=================================.......#
+#.T.T..................R.T.================================r=========r==T.T.T.Y#
+#......T.T.T.T.T.T.T.T.....=============================================.......#
+#.....HHHHHHHHHHHHHHHHH....==========....Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y........Y#
+#.T.T.HHHHHHHHHHHHHHHHH.Y.Y==========Y.YBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.T.T.T..#
+#.....HHHHHHHHHHHHHHHHH....=r========...BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.......Y#
+#.....HHHHHHHHHHHHHHHHH.Y.Y==========Y.YBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB........#
+#.T.T.HHHHHHHHHHHHHHHHH....==========...BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.T.T.T.Y#
+#.....HHHHHHHHHHHHHHHHH.Y.Y==========Y.Y.Y.Y.Y.Y.Y.Y.Y.....Y.Y.Y.Y.Y.Y.........#
+#.....HHHHHHHHHHHHHHHHH....==========....HHHHHHHHHHHHHHY.Y.HHHHHHHHHHHH.......Y#
+#.T.T.HHHHHHHHHHHHHHHHH.Y.Y=====r====....HHHHHHHHHHHHHH.Y.YHHHHHHHHHHHH.T.T.T..#
+#.....HHHHHHHHHHHHHHHHH....==========..R.HHHHHHHHHHHHHH....HHHHHHHHHHHH.......Y#
+#.....HHHHHHHHHHHHHHHHH.Y.Y==========....HHHHHHHHHHHHHHY.Y.HHHHHHHHHHHH........#
+#.T.T.HHHHHHHHHHHHHHHHH....==========....HHHHHHHHHHHHHH....HHHHHHHHHHHH.T.T.T.Y#
+#.....HHHHHHHHHHHHHHHHH.Y.Y==========....HHHHHHHHHHHHHH.Y.YHHHHHHHHHHHH........#
+#.....HHHHHHHHHHHHHHHHH....=r========....HHHHHHHHHHHHHH....HHHHHHHHHHHH.......Y#
+#.T.T...................Y.Y==========....HHHHHHHHHHHHHHY.Y.HHHHHHHHHHHH.T.T.T..#
+#....Y.Y.Y.=======.Y.Y.Y.Y.==========....HHHHHHHHHHHHHH....HHHHHHHHHHHH.......Y#
+#....===========r====================....HHHHHHHHHHHHHH.Y.YHHHHHHHHHHHH........#
+#.T.T====r=============r=============.R..HHHHHHHHHHHHHH....HHHHHHHHHHHH.T.T.T.Y#
+#....================================..................Y.Y.....................#
+#....===========================r====.Y.Y.Y.========.Y.Y.Y.Y.========.R.......Y#
+#.T.T=============================================r====================.T.T.T..#
+#....=====================================r============================.......Y#
+#.R...........R............R..==================================r======........#
+#.............................=========================================.T.T.T.Y#
+#.T.T.T.T.T.T.T.T.T.T.T.T.T.T.========================r================........#
+#....................................R.================================.......Y#
+#......................................========.R...Y..Y.Y.Y.Y.Y.Y.Y....Y.Y.Y..#
+#.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T========...YHHHHHHHHHHHHHHHHHHY........Y#
+#......................................========Y.T.HHHHHHHHHHHHHHHHHH...T.T.T..#
+#......................................========....HHHHHHHHHHHHHHHHHHY........Y#
+#.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T==r=====Y...HHHHHHHHHHHHHHHHHH..........#
+#......................................========..T.HHHHHHHHHHHHHHHHHHY..T.T.T.Y#
+#.R.................Y.Y.Y.Y.Y.Y.Y......========Y...HHHHHHHHHHHHHHHHHH..........#
+#...HHHHHHHHHHHHY.YHHHHHHHHHHHHHHHY....========....HHHHHHHHHHHHHHHHHHY........Y#
+#.T.HHHHHHHHHHHH...HHHHHHHHHHHHHHH..Y..========Y.T.HHHHHHHHHHHHHHHHHH...T.T.T..#
+#...HHHHHHHHHHHH...HHHHHHHHHHHHHHH.....========....HHHHHHHHHHHHHHHHHHY........Y#
+#...HHHHHHHHHHHH...HHHHHHHHHHHHHHH..R..========Y...HHHHHHHHHHHHHHHHHH..........#
+#.T.HHHHHHHHHHHH.R.HHHHHHHHHHHHHHH.....========..T...................Y..T.T.T.Y#
+#...HHHHHHHHHHHH...HHHHHHHHHHHHHHH.....========Y.Y.Y.Y.R========.Y.Y.Y.........#
+#...HHHHHHHHHHHH...HHHHHHHHHHHHHHH.....================================.......Y#
+#.T.HHHHHHHHHHHH...HHHHHHHHHHHHHHH.....======r=====================r===.T.T.T..#
+#...HHHHHHHHHHHH...HHHHHHHHHHHHHHH.....================================.......Y#
+#...HHHHHHHHHHHH...HHHHHHHHHHHHHHH.....================================........#
+#.T.HHHHHHHHHHHH...HHHHHHHHHHHHHHH.....=r=====================r========.T.T.T.Y#
+#...HHHHHHHHHHHH...HHHHHHHHHHHHHHH.....================================........#
+#..................HHHHHHHHHHHHHHH.....================================.......Y#
+#.T...======....R..HHHHHHHHHHHHHHH.R...================================.T.T.T..#
+#...Y.======...........................========..R........R...........R.......Y#
+#.T...======...........========........========................................#
+#...Y.=r====.T.T.T.T.T.====r===.T.T.T.T========.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.Y#
+#.T.Y.======...........========........========................................#
+#...=========================================r=...............................Y#
+#.T.=========r========r===============r========.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T..#
+#...===========================================...............................Y#
+#.T.T.Y.T.Y.T.Y.T.Y.T.Y.T.Y.T.Y.T.Y.T.Y.T.Y.T.Y..Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y..Y#
+################################################################################

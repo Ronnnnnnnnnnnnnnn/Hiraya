@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9092871746590039916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3568891672669786435}
+  - component: {fileID: 4318083643926480412}
+  - component: {fileID: 2424568894574628590}
+  m_Layer: 0
+  m_Name: Item_Bottle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3568891672669786435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9092871746590039916}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8785742651243853290}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4318083643926480412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9092871746590039916}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6, y: 0.9999999, z: 0.6}
+  m_Center: {x: 0, y: 0.49999994, z: 0}
+--- !u!114 &2424568894574628590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9092871746590039916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf8c204baa36be34986e9230fe4d82ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Hiraya.WordTarget
+  word: bote
+  place: paaralan
+  sound: {fileID: 8300000, guid: d133f58fa8affad4b89b60ac28ceba58, type: 3}
+  picture: {fileID: 21300000, guid: a485e009d96333847b3093492afcd83b, type: 3}
+  category: gamit
+  categoryEnglish: thing
+  spellingStep: 1
+  hint: Lalagyan ng tubig
+  hintEnglish: It holds water
+  wrongAnswers:
+  - word: upuan
+    category: kagamitan
+    categoryEnglish: furniture
+    picture: {fileID: 21300000, guid: 4a5d3b6b58d1645419ec254fc7d130cd, type: 3}
+  - word: hapag-sulatan
+    category: gamit sa paaralan
+    categoryEnglish: school thing
+    picture: {fileID: 21300000, guid: adb8f2664bd80964c8063a50ec5fa988, type: 3}
+  interactDistance: 1.1
+  area: {fileID: 4318083643926480412}
+--- !u!1001 &9108392914943087105
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3568891672669786435}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 16.647549
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 39.250374
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 16.949932
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000000018626451
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39250374
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000003774895
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f928cf4464aa5e247a106f9ab5c88e91, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f928cf4464aa5e247a106f9ab5c88e91, type: 2}
+    - target: {fileID: 919132149155446097, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+      propertyPath: m_Name
+      value: Model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+--- !u!4 &8785742651243853290 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3b7a2f89f413c054baae86e77498f9e2, type: 3}
+  m_PrefabInstance: {fileID: 9108392914943087105}
+  m_PrefabAsset: {fileID: 0}

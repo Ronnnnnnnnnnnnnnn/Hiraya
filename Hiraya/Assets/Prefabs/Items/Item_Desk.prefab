@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1035335967217857586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5024594554320297051}
+  - component: {fileID: 5960826107512791170}
+  - component: {fileID: 4653752324294595096}
+  m_Layer: 0
+  m_Name: Item_Desk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5024594554320297051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035335967217857586}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6567951134801255922}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5960826107512791170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035335967217857586}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.1302367, y: 1.0670528, z: 1.2}
+  m_Center: {x: 0, y: 0.5335264, z: 0}
+--- !u!114 &4653752324294595096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035335967217857586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf8c204baa36be34986e9230fe4d82ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Hiraya.WordTarget
+  word: hapag-sulatan
+  place: paaralan
+  sound: {fileID: 8300000, guid: f2c6ad9419e596840868659f5336c06a, type: 3}
+  picture: {fileID: 21300000, guid: adb8f2664bd80964c8063a50ec5fa988, type: 3}
+  category: gamit sa paaralan
+  categoryEnglish: school thing
+  spellingStep: 1
+  hint: Sinusulatan ng mag-aaral
+  hintEnglish: You write on it at school
+  wrongAnswers:
+  - word: pisara
+    category: gamit sa paaralan
+    categoryEnglish: school thing
+    picture: {fileID: 21300000, guid: 4bf3b12a7d7e7af45bbd18cc6501535e, type: 3}
+  - word: tisa
+    category: gamit sa paaralan
+    categoryEnglish: school thing
+    picture: {fileID: 21300000, guid: bafc68d871eb7924591d03d4ba9cede4, type: 3}
+  interactDistance: 1.1
+  area: {fileID: 5960826107512791170}
+--- !u!1001 &6677912180723989017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5024594554320297051}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 28.543053
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 28.543053
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 28.543053
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0141885
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1db051f3333a56a41a90f6d910adb0ad, type: 2}
+    - target: {fileID: 919132149155446097, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+      propertyPath: m_Name
+      value: Model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+--- !u!4 &6567951134801255922 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb6e6c42b42fe744b8c47c9af936610f, type: 3}
+  m_PrefabInstance: {fileID: 6677912180723989017}
+  m_PrefabAsset: {fileID: 0}

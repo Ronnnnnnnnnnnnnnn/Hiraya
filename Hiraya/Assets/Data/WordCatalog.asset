@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df300bfa7fa6d5942bc58424d8dee0f7, type: 3}
+  m_Name: WordCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::Hiraya.WordCatalog
+  places:
+  - id: paaralan
+    locked: 0
+  - id: tahanan
+    locked: 0
+  - id: palengke
+    locked: 1
+  - id: hardin
+    locked: 1
+  - id: bundok
+    locked: 1
+  words:
+  - word: pisara
+    place: paaralan
+    english: blackboard
+    picture: {fileID: 21300000, guid: 4bf3b12a7d7e7af45bbd18cc6501535e, type: 3}
+    sound: {fileID: 8300000, guid: e21ad445c09f0c248bf247b551113244, type: 3}
+    description: A blackboard is a big dark board that the teacher writes on with
+      chalk.
+    example: Sumulat ang guro sa pisara.
+    exampleEnglish: The teacher wrote on the blackboard.
+    blank: Basahin natin ang nakasulat sa ___.
+    blankEnglish: Let us read what is written on the ___.
+    blankWrong:
+    - bote
+    - upuan
+  - word: bote
+    place: paaralan
+    english: bottle
+    picture: {fileID: 21300000, guid: a485e009d96333847b3093492afcd83b, type: 3}
+    sound: {fileID: 8300000, guid: d133f58fa8affad4b89b60ac28ceba58, type: 3}
+    description: A bottle is a container that holds water or other drinks.
+    example: Puno ng tubig ang bote.
+    exampleEnglish: The bottle is full of water.
+    blank: Nauhaw ako, kaya uminom ako ng tubig mula sa ___.
+    blankEnglish: I was thirsty, so I drank water from the ___.
+    blankWrong:
+    - upuan
+    - tisa
+  - word: lapis
+    place: paaralan
+    english: pencil
+    picture: {fileID: 21300000, guid: 2d7a688b5de620447a3806da2cf056a0, type: 3}
+    sound: {fileID: 8300000, guid: aa822acaa6859e146bd91ef8deb7d927, type: 3}
+    description: A pencil is a thin stick used for writing and drawing.
+    example: Gumuhit ako ng bulaklak gamit ang lapis.
+    exampleEnglish: I drew a flower with a pencil.
+    blank: Tinasahan ko ang aking ___ para makasulat.
+    blankEnglish: I sharpened my ___ so I could write.
+    blankWrong:
+    - pisara
+    - bote
+  - word: pambura
+    place: paaralan
+    english: eraser
+    picture: {fileID: 21300000, guid: 14e507144d6935444bc5df799943588d, type: 3}
+    sound: {fileID: 8300000, guid: 9bc3d4cad2a6a454db0edd55dca53485, type: 3}
+    description: An eraser removes writing from paper or from the board.
+    example: May pambura sa loob ng bag ko.
+    exampleEnglish: There is an eraser inside my bag.
+    blank: Mali ang isinulat ko, kaya ginamit ko ang ___.
+    blankEnglish: I wrote something wrong, so I used the ___.
+    blankWrong:
+    - bote
+    - upuan
+  - word: upuan
+    place: paaralan
+    english: chair
+    picture: {fileID: 21300000, guid: 4a5d3b6b58d1645419ec254fc7d130cd, type: 3}
+    sound: {fileID: 8300000, guid: a3d66d9e61e70204f98674f6eb8654c3, type: 3}
+    description: A chair is a seat with a back, made for one person.
+    example: Umupo si Ana sa upuan.
+    exampleEnglish: Ana sat on the chair.
+    blank: Pagod ako, kaya umupo ako sa ___.
+    blankEnglish: I was tired, so I sat on the ___.
+    blankWrong:
+    - pisara
+    - tisa
+  - word: hapag-sulatan
+    place: paaralan
+    english: desk
+    picture: {fileID: 21300000, guid: adb8f2664bd80964c8063a50ec5fa988, type: 3}
+    sound: {fileID: 8300000, guid: f2c6ad9419e596840868659f5336c06a, type: 3}
+    description: A school desk is a small table where a pupil reads and writes.
+    example: Malinis ang hapag-sulatan ni Ben.
+    exampleEnglish: Ben's desk is clean.
+    blank: Inilagay ko ang aklat sa ibabaw ng aking ___.
+    blankEnglish: I put the book on top of my ___.
+    blankWrong:
+    - tisa
+    - lapis
+  - word: tisa
+    place: paaralan
+    english: chalk
+    picture: {fileID: 21300000, guid: bafc68d871eb7924591d03d4ba9cede4, type: 3}
+    sound: {fileID: 8300000, guid: 9134718f06c7d2849b5e704401c604ea, type: 3}
+    description: Chalk is a small stick used to write on a blackboard.
+    example: Puti ang tisa ng guro.
+    exampleEnglish: The teacher's chalk is white.
+    blank: Sumulat si Marco sa pisara gamit ang ___.
+    blankEnglish: Marco wrote on the blackboard with ___.
+    blankWrong:
+    - bote
+    - upuan
+  - word: hapag
+    place: tahanan
+    english: table
+    picture: {fileID: 21300000, guid: 8441bd0b9fce54344918917adf095aac, type: 3}
+    sound: {fileID: 8300000, guid: 3fd7c9eba13ae7e4c9674740ded5bedc, type: 3}
+    description: A table has a flat top and legs. We put food and other things on
+      it.
+    example: Nasa hapag ang pagkain.
+    exampleEnglish: The food is on the table.
+    blank: Sabay-sabay kaming kumain sa ___.
+    blankEnglish: We ate together at the ___.
+    blankWrong:
+    - aparador
+    - kama
+  - word: kama
+    place: tahanan
+    english: bed
+    picture: {fileID: 21300000, guid: 826d13db4cd013442a33f3f6e50dedde, type: 3}
+    sound: {fileID: 8300000, guid: 27f9ee2766669444aba8d77167225175, type: 3}
+    description: A bed is a piece of furniture that people sleep on.
+    example: Malambot ang aking kama.
+    exampleEnglish: My bed is soft.
+    blank: Gabi na, kaya matutulog na ako sa ___.
+    blankEnglish: It is night, so I will sleep on the ___.
+    blankWrong:
+    - telebisyon
+    - aparador
+  - word: aparador
+    place: tahanan
+    english: wardrobe
+    picture: {fileID: 21300000, guid: 1ee77b56cd689594695308c22c8c83c2, type: 3}
+    sound: {fileID: 8300000, guid: 33550c474fba70e4a99f9c1b0fe5ac55, type: 3}
+    description: A wardrobe is a tall cabinet where clothes are kept.
+    example: Nasa loob ng aparador ang damit ko.
+    exampleEnglish: My clothes are inside the wardrobe.
+    blank: Tiniklop ko ang damit at inilagay sa ___.
+    blankEnglish: I folded the clothes and put them in the ___.
+    blankWrong:
+    - telebisyon
+    - hapag
+  - word: telebisyon
+    place: tahanan
+    english: TV
+    picture: {fileID: 21300000, guid: 605b3dfd9a57a5d4f938c868ba911b7a, type: 3}
+    sound: {fileID: 8300000, guid: e7a0f737e65b13b4289c6cc2968fa679, type: 3}
+    description: A television shows moving pictures with sound.
+    example: Nanonood kami ng telebisyon tuwing gabi.
+    exampleEnglish: We watch television every night.
+    blank: Binuksan ni Tatay ang ___ para manood ng balita.
+    blankEnglish: Father turned on the ___ to watch the news.
+    blankWrong:
+    - kama
+    - hapag
