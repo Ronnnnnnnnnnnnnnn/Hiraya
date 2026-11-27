@@ -130,7 +130,7 @@ namespace Hiraya
             if (childInfo != null)
             {
                 int age = GameSession.Age;
-                childInfo.text = age > 0 ? age + Loc.T(" years old", " taong gulang") : string.Empty;
+                childInfo.text = age > 0 ? Loc.T("Age ", "Edad ") + GameSession.AgeGroup : string.Empty;
             }
 
             if (starsValue != null) starsValue.text = GameProgress.TotalStars().ToString();
@@ -259,7 +259,7 @@ namespace Hiraya
             var sb = new StringBuilder();
             sb.AppendLine(Loc.T("Hiraya - Progress Report", "Hiraya - Ulat ng Progreso"));
             sb.AppendLine(Loc.T("Child,", "Bata,") + Quote(GameSession.DisplayName));
-            sb.AppendLine(Loc.T("Age,", "Edad,") + GameSession.Age);
+            sb.AppendLine(Loc.T("Age,", "Edad,") + GameSession.AgeGroup);
             sb.AppendLine(Loc.T("Total stars,", "Kabuuang bituin,") + GameProgress.TotalStars());
             sb.AppendLine(Loc.T("Words learned,", "Natutunang salita,") + GameProgress.WordsLearned);
             sb.AppendLine(Loc.T("Days in a row,", "Sunod-sunod na araw,") + ProgressLog.Streak());

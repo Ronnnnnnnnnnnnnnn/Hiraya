@@ -58,6 +58,9 @@ namespace Hiraya
             set => PlayerPrefs.SetInt(AgeKey, value);
         }
 
+        /// <summary>The age choice as the screens show it: "3+" or "6+".</summary>
+        public static string AgeGroup => Age > MaxKinderAge ? "6+" : "3+";
+
         public static CharacterChoice Character
         {
             get => PlayerPrefs.GetInt(CharacterKey, (int)CharacterChoice.Fin) == (int)CharacterChoice.Fiona

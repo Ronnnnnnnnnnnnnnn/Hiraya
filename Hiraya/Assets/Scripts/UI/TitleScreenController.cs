@@ -83,7 +83,7 @@ namespace Hiraya
 
         [Header("Age step")]
         [Tooltip("The age written on each age button, in the same order as the buttons.")]
-        [SerializeField] int[] ageValues = { 3, 4, 5, 6, 7, 8, 9 };
+        [SerializeField] int[] ageValues = { 3, 6 };   // shown as 3+ and 6+
         [SerializeField] AgeSlot[] ageSlots;
         [SerializeField] Button nextButton;
         [SerializeField] Button backButton;
@@ -113,7 +113,7 @@ namespace Hiraya
             }
             for (int i = 0; i < ageSlots.Length && i < ageValues.Length; i++)
             {
-                if (ageSlots[i].label != null) ageSlots[i].label.text = ageValues[i].ToString();
+                if (ageSlots[i].label != null) ageSlots[i].label.text = ageValues[i] + "+";
             }
 
             RefreshAvatars();
